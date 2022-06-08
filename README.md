@@ -14,3 +14,5 @@ python -m torch.distributed.launch --nproc_per_node=<num of GPUs> main_dino.py -
 
 For Visualization of Attention Maps:
 python visualize_attention.py --image_path <imagePath> --pretrained_weights <.pth trained filePath> --patch_size 16 --output_dir <attention map output directory path>
+
+  In reference to https://github.com/facebookresearch/dino
